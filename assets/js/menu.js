@@ -29,14 +29,15 @@ $(document).ready(function(){
 	};
 
 	$(window).resize(function() {
-
 		document.location.reload();
 
 		// if ($(window).width()>990) {
+		// 	$('nav>ul>li').bind('hover');
 		// 	$('#mobile-button').hide();
 		// 	$('#mobile-close').hide();
 
 		// } else {
+		// 	$('nav>ul>li').unbind('hover');
 		// 	$('#menu-container').hide();
 		// 	$('#mobile-button').show();
 		// }
